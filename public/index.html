@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>G-Chat</title>
+  </head>
+  <body>
+    <!-- Login Page -->
+
+    <div class="log-in-container">
+      <h1>G-Chat</h1>
+      <form action="submit" class="form">
+        <div class="input-field">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="username"
+            id="usernameInput"
+          />
+        </div>
+        <div class="enter-char-room-btn">
+          <button type="submit">Enter Chat Room</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Login Page End -->
+
+    <!-- chat Page -->
+    <div class="main-container">
+      <div class="chat-container">
+        <div class="messege">Hii</div>
+        <div class="messege send">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+          illum quod debitis
+        </div>
+      </div>
+      <div class="message-input-container">
+        <div class="message-box">
+          <input type="text" placeholder="Start chatting..." />
+        </div>
+        <div class="send-button">
+          <button type="button">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- chat Page End -->
+    <script src="./script.js"></script>
+  </body>
+</html>
