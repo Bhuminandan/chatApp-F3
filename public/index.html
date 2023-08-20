@@ -40,7 +40,7 @@
     <!-- chat Page -->
     <div class="main-container">
       <div class="chat-container">
-        <div class="messege">Hii</div>
+        <div class="messege">Shubham <span>Hi kaise ho tum</span></div>
         <div class="messege send">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
           illum quod debitis
@@ -48,7 +48,12 @@
       </div>
       <div class="message-input-container">
         <div class="message-box">
-          <input type="text" placeholder="Start chatting..." />
+          <input
+            type="text"
+            placeholder="Start chatting..."
+            class="input"
+            required
+          />
         </div>
         <div class="send-button">
           <button type="button">
@@ -58,6 +63,7 @@
       </div>
     </div>
     <!-- chat Page End -->
+    <script src="/socket.io/socket.io.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

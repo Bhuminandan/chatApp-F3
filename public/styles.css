@@ -158,17 +158,16 @@ body {
   justify-content: center;
   border-radius: 20px;
   cursor: pointer;
-  padding: 10px 25px;
-  background-color: #0094ff;
 }
 
 .send-button button {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   color: white;
   border: none;
   cursor: pointer;
-  background-color: transparent;
+  padding: 10px 25px;
+  background-color: #0094ff;
 }
 
 .send-button button:active {
@@ -186,4 +185,26 @@ body {
     font-size: 14px;
     padding: 8px 15px;
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #151515;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #313233;
+  border-radius: 10px;
+  height: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #58baff;
 }
